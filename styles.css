@@ -1,0 +1,57 @@
+.navbar-nav .nav-link,
+.navbar-brand {
+    color: white !important; /* Change text color to white */
+}
+/* Navbar link hover effect */
+.navbar-nav .nav-link:hover {
+    color: black !important; /* Change text color to light gray when hovered */
+}
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('images/hero_photo.jpeg');
+    background-size:cover;
+    position:relative;  
+     
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 3.2rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+.span-text {
+    font-size: 2.8rem;
+    text-shadow: 2px 2px grey;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+.navbarScroll.navbarDark {
+    background-color: grey;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.btn-contact {
+    background-color: #888 !important; 
+    color: white !important; 
+    font-size: 24px; 
+    padding: 15px 30px;
+}
+
+.btn-contact:hover {
+    background-color: #666; 
+}
