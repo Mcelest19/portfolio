@@ -55,3 +55,23 @@
 .btn-contact:hover {
     background-color: #666; 
 }
+.social-icons {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the distance from the right side */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon {
+    margin-bottom: 40px; /* Adjust the space between icons */
+    }
+.social-icon i {
+    font-size: 45px; /* Adjust the size of the icons */
+    color: white !important;
+    transition: transform 0.3s ease;
+}
+.social-icon:hover i {
+    transform: scale(1.2); /* Increase the size of the icon on hover */
+}
