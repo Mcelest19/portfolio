@@ -6,9 +6,6 @@
 .navbar-nav .nav-link:hover {
     color: black !important; /* Change text color to light gray when hovered */
 }
-.navbar-toggler-icon{
-    color:white !important;
-}
 
 /* hero background image */
 .bgimage {
@@ -21,6 +18,7 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 3.2rem;
+    margin-left: 20px;
 }
 .hero_desc {
     font-size: 2rem;
@@ -43,8 +41,9 @@
     width: 100%;
 }
 .navbarScroll.navbarDark {
-    background-color: grey;
+    background-color: grey;    
 }
+
 .navbar-toggler-icon{
     color: white;
 }
@@ -73,7 +72,7 @@
     margin-bottom: 40px; 
     }
 .social-icon i {
-    font-size: 45px; 
+    font-size: 40px; 
     color: white !important;
     transition: transform 0.3s ease;
 }
@@ -83,6 +82,11 @@
 
 /* Media query for small screens */
 @media (max-width: 768px) {
+    .navbar-nav{
+        background-color: grey;
+        align-items: center;
+        opacity: 90%;
+    }
     .hero-text {
         text-align: center; 
     }
