@@ -105,3 +105,30 @@
         margin: 40px 20px; 
     }
 }
+.text-center{
+    margin-top: 30px;
+
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    color: grey;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: black;
+    transform: scale(1.2)
+}
+.servicesText:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
