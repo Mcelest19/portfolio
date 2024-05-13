@@ -72,9 +72,10 @@
     margin-bottom: 40px; 
     }
 .social-icon i {
-    font-size: 40px; 
+    font-size: 35px; 
     color: white !important;
     transition: transform 0.3s ease;
+    text-shadow: 2px 2px black;
 }
 .social-icon:hover i {
     transform: scale(1.2); /* Increase the size of the icon on hover */
@@ -133,13 +134,13 @@
     border: 1px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
-#services, #about{
-    padding: 30px 0; /* Add some padding for spacing */
+#services, #about, #contact{
+    padding: 40px 0; /* Add some padding for spacing */
 
 }
 #portfolio {
     background-image: linear-gradient(to bottom, #f2f2f2, #dddddd);
-    padding: 20px 0; /* Add some padding for spacing */
+    padding: 40px 0; /* Add some padding for spacing */
 }
 .card{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
@@ -154,5 +155,22 @@
     margin: 0px 300px; 
 }
 .card-footer{
+    text-align: center;
+}
+
+/* social media icons styling */
+.social-icons-footer {
+    font-size: 26px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: black;
+}
+.fab {
+    color: white;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
     text-align: center;
 }
