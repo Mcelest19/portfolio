@@ -10,7 +10,7 @@
 /* hero background image */
 .bgimage {
     height: 100vh;
-    background: url('images/hero_photo.jpeg');
+    background: url('images/background.jpg');
     background-size:cover;
     position:relative;  
      
@@ -30,7 +30,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 2px black;
 }
 .span-text {
     font-size: 2.8rem;
@@ -48,7 +48,7 @@
     color: white;
 }
 .btn-contact {
-    background-color: #888 !important; 
+    background-color: orange !important; 
     color: white !important; 
     font-size: 24px; 
     padding: 15px 30px;
@@ -119,7 +119,7 @@
     font-size: 36px;
     text-align: center;
     width: 100%;
-    color: grey;
+    color: #5F9EA0;
 }
 .card-title {
     text-align: center;
@@ -131,4 +131,18 @@
 .servicesText:hover {
     border: 1px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+#services{
+    padding: 30px 0; /* Add some padding for spacing */
+
+}
+#portfolio {
+    background-image: linear-gradient(to bottom, #f2f2f2, #dddddd);
+    padding: 30px 0; /* Add some padding for spacing */
+}
+.card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+.card-body{
+    background-image: linear-gradient(to bottom, #f2f2f2, #dddddd);
 }
