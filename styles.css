@@ -106,7 +106,8 @@
     }
 }
 .text-center{
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 
 }
 /* services section css */
@@ -132,17 +133,26 @@
     border: 1px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
-#services{
+#services, #about{
     padding: 30px 0; /* Add some padding for spacing */
 
 }
 #portfolio {
     background-image: linear-gradient(to bottom, #f2f2f2, #dddddd);
-    padding: 30px 0; /* Add some padding for spacing */
+    padding: 20px 0; /* Add some padding for spacing */
 }
 .card{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
 .card-body{
     background-image: linear-gradient(to bottom, #f2f2f2, #dddddd);
+}
+.divider {
+    border: black !important;
+    border-top: 50px solid black;
+    box-shadow: 1 0 20px #5F9EA0;
+    margin: 0px 300px; 
+}
+.card-footer{
+    text-align: center;
 }
